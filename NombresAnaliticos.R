@@ -44,7 +44,7 @@ names(BCCA_TDP_DATA_RAW) <- c("id",      "xanexo_n","xtelef_n","vgener_c","vedad
 
 names(BCCA_TDP_DATA_RAW)
 #Exportación de la data con nombres analíticos
-write.csv(BCCA_TDP_DATA_RAW, "BCCA_TDP_DATA_RAW_ANALITICO.csv", row.names = FALSE)
+write.csv(BCCA_TDP_DATA_RAW, "BCCA_TDP_DATA_RAW_ANALITICO.csv", row.names = FALSE) 
 
 
 
